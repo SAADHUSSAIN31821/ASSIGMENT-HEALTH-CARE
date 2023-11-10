@@ -1,0 +1,111 @@
+@media screen and (max-width : 894px) {
+    .header-nav {
+        display: none;
+    }
+
+    .column1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main-card {
+        width: 80%;
+    }
+
+    .search-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        padding: 33px 0px;
+        gap: 5%;
+        width: 59%;
+        margin: 1rem;
+        border-radius: .4rem;
+        letter-spacing: -2.34px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+
+    .more-link {
+        width: 96%;
+    }
+
+}
+
+@media screen and (max-width : 729px) {
+    .size-service {
+        font-size: 22px;
+        width: 89%;
+
+    }
+
+    .column2-row1 {
+        width: 100%;
+    }
+
+    .footer-bar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: .2rem;
+    }
+}
+
+@media screen and (max-width : 1185px) {
+    .header-nav {
+        display: none;
+    }
+
+    .box2-icon {
+        display: flex;
+        margin-right: 2rem;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .row2 {
+        display: none;
+    }
+
+    .column1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .column2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .column2-row1 {
+        width: 60%;
+    }
+
+    .search-card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        padding: 33px 0px;
+        gap: 2%;
+        width: 75%;
+        margin: 1rem;
+        border-radius: .4rem;
+        letter-spacing: -2.34px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .percent-card {
+        width: 230px;
+    }
+}
